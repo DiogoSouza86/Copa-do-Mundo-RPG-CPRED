@@ -115,12 +115,10 @@ def pontos4(time1, time2):
         gols = [0, 1, 2, 3, 4, 5]
         ff_gols = choices(gols, weights=[0.5, 20.5, 25, 25, 10, 10])
         return ff_gols
-
     if time1 in (times_fortes) and time2 in (times_medios):
         gols = [0, 1, 2, 3, 4, 5]
         ff_gols = choices(gols, weights=[30, 30, 25, 0.5, 0.5, 0.5])
         return ff_gols
-
     if time1 in (times_fortes) and time2 in (times_fortes):
         gols = [0, 1, 2, 3, 4, 5]
         ff_gols = choices(gols, weights=[30, 30, 25, 0.5, 0.5, 0.5])
@@ -143,12 +141,10 @@ def pontos4(time1, time2):
         gols = [0, 1, 2, 3, 4, 5]
         ff_gols = choices(gols, weights=[40.5, 30, 10, 0.5, 0.5, 0.5])
         return ff_gols
-
     if time1 in (times_fracos) and time2 in (times_medios):
         gols = [0, 1, 2, 3, 4, 5]
         ff_gols = choices(gols, weights=[30, 30, 10, 10, 10, 10])
         return ff_gols
-
     if time1 in (times_fracos) and time2 in (times_fracos):
         gols = [0, 1, 2, 3, 4, 5]
         ff_gols = choices(gols, weights=[30, 30, 20, 10, 0.5, 0.5])
@@ -180,7 +176,7 @@ def salvar_resultado(t1 , p1, t2, p2):
     a.close()
 
 
-cup = ["França","Inglaterra", "Brasil"]
+cup = ["França","Inglaterra", "Brasil", "Nigth City"]
 w_cup = []
 lista_chave = []
 tabela = {}
@@ -233,15 +229,16 @@ print()
 
 times_fracos = []
 times_medios = []
-times_fortes = []
+times_fortes = ["Nigth City"]
 for f in w_cup:
-    roll = randint(1,5)
-    if roll == 1:
-        times_fracos.append(f)
-    elif roll == 4:
-        times_fortes.append(f)
-    else:
-        times_medios.append(f)
+    if f != "Nigth City":
+        roll = randint(1,5)
+        if roll == 1:
+            times_fracos.append(f)
+        elif roll == 4:
+            times_fortes.append(f)
+        else:
+            times_medios.append(f)
 
 print()
 print(f'Times fracos:\n{sorted(times_fracos)}')
@@ -2787,5 +2784,7 @@ print(localizar("França"))
 salvar_titulo(localizar("França"))
 print(localizar("Inglaterra"))
 salvar_titulo(localizar("Inglaterra"))
+print(localizar("Nigth City"))
+salvar_titulo(localizar("Nigth City"))
 
 

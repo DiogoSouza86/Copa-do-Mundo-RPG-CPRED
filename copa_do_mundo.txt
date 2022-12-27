@@ -1,294 +1,290 @@
 TIMES CLASSIFICADOS
 
->Albânia
->Bielorrússia
+>Arábia Saudita
 >Bolívia
 >Brasil
->Burquina Faso
->Bélgica
->Camarões
->Canadá
->Chipre
->Colômbia
+>Brunei
+>Cabo Verde
+>Chile
+>Coral Sea Islands
+>Coreia do Norte
 >Coreia do Sul
+>Costa Rica
+>Cuba
+>Eslováquia
 >Espanha
->Etiópia
->Finlândia
 >França
+>Gabão
 >Geórgia
->Ilhas Heard e McDonald
+>Gronelândia
+>Ilhas Marshall
+>Indonésia
 >Inglaterra
->Japão
->Letónia
->Líbano
+>Islândia
+>Jamaica
+>Malásia
 >Marrocos
 >Namíbia
+>Nigth City
 >Quiribáti
->Quénia
->Salvador
->Santa Lúcia
->Senegal
->Serra Leoa
+>Suriname
+>Suíça
 >São Vicente e Granadinas
->Togo
+>Ucrânia
 >Venezuela
 
-Times fracos: ['Bielorrússia', 'Chipre', 'Finlândia', 'Líbano', 'Namíbia', 'Salvador']
-Times médios['Bolívia', 'Brasil', 'Burquina Faso', 'Bélgica', 'Camarões', 'Canadá', 'Colômbia', 'Coreia do Sul', 'Espanha', 'França', 'Geórgia', 'Ilhas Heard e McDonald', 'Japão', 'Letónia', 'Marrocos', 'Quénia', 'Santa Lúcia', 'Senegal', 'Serra Leoa', 'São Vicente e Granadinas', 'Venezuela']
-Times fortes['Albânia', 'Etiópia', 'Inglaterra', 'Quiribáti', 'Togo']
+Times fracos: ['Cabo Verde', 'Chile', 'Coreia do Norte', 'Costa Rica', 'Malásia', 'Ucrânia']
+Times médios['Bolívia', 'Brunei', 'Coral Sea Islands', 'Cuba', 'Eslováquia', 'Espanha', 'França', 'Gabão', 'Indonésia', 'Inglaterra', 'Islândia', 'Jamaica', 'Marrocos', 'Namíbia', 'Quiribáti', 'Suriname', 'Suíça']
+Times fortes['Arábia Saudita', 'Brasil', 'Coreia do Sul', 'Geórgia', 'Gronelândia', 'Ilhas Marshall', 'Nigth City', 'São Vicente e Granadinas', 'Venezuela']
 
 ---TABELAS
 
 Chave A
-['Etiópia', 'Bolívia', 'Senegal', 'Canadá']
+['Ucrânia', 'Inglaterra', 'França', 'Ilhas Marshall']
 Chave B
-['Burquina Faso', 'Coreia do Sul', 'Santa Lúcia', 'Geórgia']
+['Chile', 'Suíça', 'Marrocos', 'Eslováquia']
 Chave C
-['Inglaterra', 'Camarões', 'São Vicente e Granadinas', 'Chipre']
+['Espanha', 'Namíbia', 'Gabão', 'Geórgia']
 Chave D
-['Bielorrússia', 'Ilhas Heard e McDonald', 'Venezuela', 'Espanha']
+['Coral Sea Islands', 'Gronelândia', 'Suriname', 'São Vicente e Granadinas']
 Chave E
-['Quiribáti', 'Namíbia', 'Japão', 'Albânia']
+['Jamaica', 'Bolívia', 'Cuba', 'Brasil']
 Chave F
-['França', 'Marrocos', 'Letónia', 'Quénia']
+['Malásia', 'Indonésia', 'Nigth City', 'Coreia do Norte']
 Chave G
-['Brasil', 'Serra Leoa', 'Líbano', 'Bélgica']
+['Venezuela', 'Cabo Verde', 'Arábia Saudita', 'Islândia']
 Chave H
-['Togo', 'Finlândia', 'Salvador', 'Colômbia']
+['Coreia do Sul', 'Brunei', 'Costa Rica', 'Quiribáti']
 
 
 Primeira Rodada - Grupo A
-Etiópia [0] X [1] Bolívia
-Senegal [0] X [0] Canadá
+Ucrânia [3] X [5] Inglaterra
+França [1] X [2] Ilhas Marshall
 
 SEGUNDA RODADA - GRUPO A
-Bolívia [1] X [0] Senegal
-Canadá [0] X [0] Etiópia
+Inglaterra [1] X [1] França
+Ilhas Marshall [2] X [1] Ucrânia
 
 TERCEIRA RODADA - GRUPO A
-Bolívia [1] X [0] Canadá
-Etiópia [1] X [2] Senegal
+Inglaterra [0] X [2] Ilhas Marshall
+Ucrânia [1] X [0] França
 
 PRIMEIRA RODADA - GRUPO B
-Burquina Faso [1] X [1] Coreia do Sul
-Santa Lúcia [1] X [1] Geórgia
+Chile [1] X [2] Suíça
+Marrocos [0] X [1] Eslováquia
 
 SEGUNDA RODADA - GRUPO B
-Coreia do Sul [2] X [2] Santa Lúcia
-Geórgia [0] X [2] Burquina Faso
+Suíça [0] X [1] Marrocos
+Eslováquia [5] X [5] Chile
 
 TERCEIRA RODADA - GRUPO B
-Coreia do Sul [1] X [2] Geórgia
-Burquina Faso [0] X [2] Santa Lúcia
+Suíça [2] X [1] Eslováquia
+Chile [5] X [0] Marrocos
 
 PRIMEIRA RODADA - GRUPO C
-Inglaterra [0] X [0] Camarões
-São Vicente e Granadinas [2] X [0] Chipre
+Espanha [2] X [0] Namíbia
+Gabão [2] X [0] Geórgia
 
 SEGUNDA RODADA - GRUPO C
-Camarões [1] X [1] São Vicente e Granadinas
-Chipre [3] X [2] Inglaterra
+Namíbia [1] X [0] Gabão
+Geórgia [2] X [2] Espanha
 
 TERCEIRA RODADA - GRUPO C
-Camarões [3] X [2] Chipre
-Inglaterra [0] X [1] São Vicente e Granadinas
+Namíbia [0] X [2] Geórgia
+Espanha [1] X [0] Gabão
 
 PRIMEIRA RODADA - GRUPO D
-Bielorrússia [4] X [2] Ilhas Heard e McDonald
-Venezuela [2] X [2] Espanha
+Coral Sea Islands [2] X [0] Gronelândia
+Suriname [1] X [1] São Vicente e Granadinas
 
 SEGUNDA RODADA - GRUPO D
-Ilhas Heard e McDonald [0] X [0] Venezuela
-Espanha [1] X [1] Bielorrússia
+Gronelândia [0] X [2] Suriname
+São Vicente e Granadinas [0] X [1] Coral Sea Islands
 
 TERCEIRA RODADA - GRUPO D
-Ilhas Heard e McDonald [0] X [2] Espanha
-Bielorrússia [0] X [2] Venezuela
+Gronelândia [0] X [0] São Vicente e Granadinas
+Coral Sea Islands [2] X [1] Suriname
 
 PRIMEIRA RODADA - GRUPO E
-Quiribáti [3] X [0] Namíbia
-Japão [0] X [0] Albânia
+Jamaica [0] X [2] Bolívia
+Cuba [2] X [0] Brasil
 
 SEGUNDA RODADA - GRUPO E
-Namíbia [0] X [4] Japão
-Albânia [1] X [2] Quiribáti
+Bolívia [2] X [2] Cuba
+Brasil [0] X [1] Jamaica
 
 TERCEIRA RODADA - GRUPO E
-Namíbia [0] X [1] Albânia
-Quiribáti [1] X [2] Japão
+Bolívia [0] X [1] Brasil
+Jamaica [0] X [2] Cuba
 
 PRIMEIRA RODADA - GRUPO F
-França [0] X [0] Marrocos
-Letónia [1] X [2] Quénia
+Malásia [0] X [1] Indonésia
+Nigth City [3] X [0] Coreia do Norte
 
 SEGUNDA RODADA - GRUPO F
-Marrocos [1] X [0] Letónia
-Quénia [2] X [2] França
+Indonésia [1] X [0] Nigth City
+Coreia do Norte [2] X [3] Malásia
 
 TERCEIRA RODADA - GRUPO F
-Marrocos [1] X [1] Quénia
-França [2] X [2] Letónia
+Indonésia [1] X [0] Coreia do Norte
+Malásia [0] X [3] Nigth City
 
 PRIMEIRA RODADA - GRUPO G
-Brasil [2] X [0] Serra Leoa
-Líbano [3] X [1] Bélgica
+Venezuela [1] X [1] Cabo Verde
+Arábia Saudita [2] X [2] Islândia
 
 SEGUNDA RODADA - GRUPO G
-Serra Leoa [5] X [0] Líbano
-Bélgica [2] X [0] Brasil
+Cabo Verde [1] X [2] Arábia Saudita
+Islândia [2] X [1] Venezuela
 
 TERCEIRA RODADA - GRUPO G
-Serra Leoa [1] X [2] Bélgica
-Brasil [0] X [0] Líbano
+Cabo Verde [2] X [2] Islândia
+Venezuela [2] X [0] Arábia Saudita
 
 PRIMEIRA RODADA - GRUPO H
-Togo [3] X [0] Finlândia
-Salvador [4] X [1] Colômbia
+Coreia do Sul [2] X [2] Brunei
+Costa Rica [5] X [4] Quiribáti
 
 SEGUNDA RODADA - GRUPO H
-Finlândia [0] X [1] Salvador
-Colômbia [0] X [2] Togo
+Brunei [5] X [2] Costa Rica
+Quiribáti [0] X [1] Coreia do Sul
 
 TERCEIRA RODADA - GRUPO H
-Finlândia [1] X [1] Colômbia
-Togo [3] X [0] Salvador
+Brunei [0] X [2] Quiribáti
+Coreia do Sul [3] X [0] Costa Rica
 
 Classificação das seleções na Fase de Grupos
 Grupo A
-1 - {'Seleção': 'Bolívia', 'Pontos': [3, 3, 3], 'Total': 9, 'Saldo de Gols': 3}
-2 - {'Seleção': 'Etiópia', 'Pontos': [0, 1, 0], 'Total': 4, 'Saldo de Gols': -2}
-3 - {'Seleção': 'Senegal', 'Pontos': [1, 0, 3], 'Total': 4, 'Saldo de Gols': 0}
-4 - {'Seleção': 'Canadá', 'Pontos': [1, 1, 0], 'Total': 2, 'Saldo de Gols': -2}
+1 - {'Seleção': 'Ilhas Marshall', 'Pontos': [3, 3, 3], 'Total': 9, 'Saldo de Gols': 3}
+2 - {'Seleção': 'Ucrânia', 'Pontos': [0, 0, 3], 'Total': 4, 'Saldo de Gols': -2}
+3 - {'Seleção': 'Inglaterra', 'Pontos': [3, 1, 0], 'Total': 4, 'Saldo de Gols': 0}
+4 - {'Seleção': 'França', 'Pontos': [0, 1, 0], 'Total': 1, 'Saldo de Gols': -2}
 Grupo B
-1 - {'Seleção': 'Santa Lúcia', 'Pontos': [1, 1, 3], 'Total': 5, 'Saldo de Gols': 2}
-2 - {'Seleção': 'Geórgia', 'Pontos': [1, 3], 'Total': 4, 'Saldo de Gols': 0}
-3 - {'Seleção': 'Coreia do Sul', 'Pontos': [1, 1, 0], 'Total': 2, 'Saldo de Gols': -1}
-4 - {'Seleção': 'Burquina Faso', 'Pontos': [1, 0], 'Total': 1, 'Saldo de Gols': 0}
+1 - {'Seleção': 'Suíça', 'Pontos': [3, 0, 3], 'Total': 6, 'Saldo de Gols': 1}
+2 - {'Seleção': 'Eslováquia', 'Pontos': [3, 1, 0], 'Total': 4, 'Saldo de Gols': 1}
+3 - {'Seleção': 'Chile', 'Pontos': [0, 3], 'Total': 3, 'Saldo de Gols': -1}
+4 - {'Seleção': 'Marrocos', 'Pontos': [0, 3, 0], 'Total': 3, 'Saldo de Gols': -5}
 Grupo C
-1 - {'Seleção': 'São Vicente e Granadinas', 'Pontos': [3, 1, 3], 'Total': 7, 'Saldo de Gols': 3}
-2 - {'Seleção': 'Camarões', 'Pontos': [1, 1, 3], 'Total': 5, 'Saldo de Gols': 1}
-3 - {'Seleção': 'Chipre', 'Pontos': [0, 3, 0], 'Total': 3, 'Saldo de Gols': -2}
-4 - {'Seleção': 'Inglaterra', 'Pontos': [1, 0, 0], 'Total': 1, 'Saldo de Gols': -2}
+1 - {'Seleção': 'Espanha', 'Pontos': [3, 1, 3], 'Total': 7, 'Saldo de Gols': 3}
+2 - {'Seleção': 'Geórgia', 'Pontos': [0, 1, 3], 'Total': 4, 'Saldo de Gols': 0}
+3 - {'Seleção': 'Namíbia', 'Pontos': [0, 3, 0], 'Total': 3, 'Saldo de Gols': -3}
+4 - {'Seleção': 'Gabão', 'Pontos': [3, 0, 0], 'Total': 3, 'Saldo de Gols': 0}
 Grupo D
-1 - {'Seleção': 'Bielorrússia', 'Pontos': [3, 3, 0], 'Total': 6, 'Saldo de Gols': 0}
-2 - {'Seleção': 'Venezuela', 'Pontos': [1, 1, 3], 'Total': 5, 'Saldo de Gols': 2}
-3 - {'Seleção': 'Espanha', 'Pontos': [1, 0, 3], 'Total': 4, 'Saldo de Gols': 2}
-4 - {'Seleção': 'Ilhas Heard e McDonald', 'Pontos': [0, 1, 0], 'Total': 1, 'Saldo de Gols': -4}
+1 - {'Seleção': 'Coral Sea Islands', 'Pontos': [3, 3, 3], 'Total': 9, 'Saldo de Gols': 4}
+2 - {'Seleção': 'Suriname', 'Pontos': [1, 3, 0], 'Total': 4, 'Saldo de Gols': 1}
+3 - {'Seleção': 'São Vicente e Granadinas', 'Pontos': [1, 0, 1], 'Total': 2, 'Saldo de Gols': -1}
+4 - {'Seleção': 'Gronelândia', 'Pontos': [0, 0, 1], 'Total': 1, 'Saldo de Gols': -4}
 Grupo E
-1 - {'Seleção': 'Japão', 'Pontos': [1, 3, 3], 'Total': 7, 'Saldo de Gols': 5}
-2 - {'Seleção': 'Quiribáti', 'Pontos': [3, 3, 0], 'Total': 6, 'Saldo de Gols': 3}
-3 - {'Seleção': 'Albânia', 'Pontos': [1, 0, 3], 'Total': 4, 'Saldo de Gols': 0}
-4 - {'Seleção': 'Namíbia', 'Pontos': [0, 0, 0], 'Total': 0, 'Saldo de Gols': -8}
+1 - {'Seleção': 'Cuba', 'Pontos': [3, 1, 3], 'Total': 7, 'Saldo de Gols': 4}
+2 - {'Seleção': 'Bolívia', 'Pontos': [3, 1, 0], 'Total': 4, 'Saldo de Gols': 1}
+3 - {'Seleção': 'Jamaica', 'Pontos': [0, 3, 0], 'Total': 3, 'Saldo de Gols': -3}
+4 - {'Seleção': 'Brasil', 'Pontos': [0, 0, 3], 'Total': 3, 'Saldo de Gols': -2}
 Grupo F
-1 - {'Seleção': 'Marrocos', 'Pontos': [1, 3, 1], 'Total': 5, 'Saldo de Gols': 1}
-2 - {'Seleção': 'Quénia', 'Pontos': [3, 1, 1], 'Total': 5, 'Saldo de Gols': 1}
-3 - {'Seleção': 'França', 'Pontos': [1, 1, 1], 'Total': 3, 'Saldo de Gols': 0}
-4 - {'Seleção': 'Letónia', 'Pontos': [0, 0, 1], 'Total': 1, 'Saldo de Gols': -2}
+1 - {'Seleção': 'Indonésia', 'Pontos': [3, 3, 3], 'Total': 9, 'Saldo de Gols': 3}
+2 - {'Seleção': 'Nigth City', 'Pontos': [3, 0, 3], 'Total': 6, 'Saldo de Gols': 5}
+3 - {'Seleção': 'Malásia', 'Pontos': [0, 1, 0], 'Total': 1, 'Saldo de Gols': -3}
+4 - {'Seleção': 'Coreia do Norte', 'Pontos': [0, 1, 0], 'Total': 1, 'Saldo de Gols': -5}
 Grupo G
-1 - {'Seleção': 'Brasil', 'Pontos': [3, 1, 1], 'Total': 5, 'Saldo de Gols': 0}
-2 - {'Seleção': 'Líbano', 'Pontos': [3, 0, 1], 'Total': 4, 'Saldo de Gols': -3}
-3 - {'Seleção': 'Bélgica', 'Pontos': [0, 1, 3], 'Total': 4, 'Saldo de Gols': 1}
-4 - {'Seleção': 'Serra Leoa', 'Pontos': [0, 3, 0], 'Total': 3, 'Saldo de Gols': 2}
+1 - {'Seleção': 'Venezuela', 'Pontos': [1, 1, 3], 'Total': 5, 'Saldo de Gols': 1}
+2 - {'Seleção': 'Arábia Saudita', 'Pontos': [1, 3, 0], 'Total': 4, 'Saldo de Gols': -1}
+3 - {'Seleção': 'Islândia', 'Pontos': [1, 1, 1], 'Total': 3, 'Saldo de Gols': 1}
+4 - {'Seleção': 'Cabo Verde', 'Pontos': [1, 0, 1], 'Total': 2, 'Saldo de Gols': -1}
 Grupo H
-1 - {'Seleção': 'Togo', 'Pontos': [3, 3, 3], 'Total': 9, 'Saldo de Gols': 8}
-2 - {'Seleção': 'Salvador', 'Pontos': [3, 3, 0], 'Total': 6, 'Saldo de Gols': 1}
-3 - {'Seleção': 'Finlândia', 'Pontos': [0, 0, 1], 'Total': 1, 'Saldo de Gols': -4}
-4 - {'Seleção': 'Colômbia', 'Pontos': [0, 0, 1], 'Total': 1, 'Saldo de Gols': -5}
+1 - {'Seleção': 'Coreia do Sul', 'Pontos': [1, 3, 3], 'Total': 7, 'Saldo de Gols': 4}
+2 - {'Seleção': 'Brunei', 'Pontos': [1, 3, 0], 'Total': 4, 'Saldo de Gols': 1}
+3 - {'Seleção': 'Costa Rica', 'Pontos': [3, 0, 0], 'Total': 3, 'Saldo de Gols': -5}
+4 - {'Seleção': 'Quiribáti', 'Pontos': [0, 0, 3], 'Total': 3, 'Saldo de Gols': 0}
 
 Seleções classificadas para Oitavas de final
-['Bolívia', 'Etiópia', 'Santa Lúcia', 'Geórgia', 'São Vicente e Granadinas', 'Camarões', 'Bielorrússia', 'Venezuela', 'Japão', 'Quiribáti', 'Marrocos', 'Quénia', 'Brasil', 'Líbano', 'Togo', 'Salvador']
+['Ilhas Marshall', 'Ucrânia', 'Suíça', 'Eslováquia', 'Espanha', 'Geórgia', 'Coral Sea Islands', 'Suriname', 'Cuba', 'Bolívia', 'Indonésia', 'Nigth City', 'Venezuela', 'Arábia Saudita', 'Coreia do Sul', 'Brunei']
 
 OITAVAS DE FINAL
 
 Partida 01
-Bolívia [1] X [1] Geórgia
-
-Disputa de penaltes!
-Bolívia 5 X 1 Geórgia
-
-Bolívia venceu a disputa
+Ilhas Marshall [0] X [2] Eslováquia
 
 Partida 02
-São Vicente e Granadinas [2] X [1] Venezuela
+Espanha [0] X [0] Suriname
+
+Empate nos penaltes!
+
+Suriname venceu a disputa
 
 Partida 03
-Japão [2] X [0] Quénia
+Cuba [2] X [0] Nigth City
 
 Partida 04
-Brasil [0] X [0] Salvador
-
-Disputa de penaltes!
-Brasil 3 X 4 Salvador
-
-Salvador venceu a disputa
+Venezuela [1] X [0] Brunei
 
 Partida 05
-Santa Lúcia [1] X [2] Etiópia
+Suíça [3] X [1] Ucrânia
 
 Partida 06
-Bielorrússia [0] X [1] Camarões
+Coral Sea Islands [1] X [0] Geórgia
 
 Partida 07
-Marrocos [0] X [0] Quiribáti
-
-Disputa de penaltes!
-Marrocos 4 X 1 Quiribáti
-
-Marrocos venceu a disputa
+Indonésia [0] X [2] Bolívia
 
 Partida 08
-Togo [5] X [1] Líbano
+Coreia do Sul [1] X [1] Arábia Saudita
+
+Disputa de penaltes!
+Coreia do Sul 1 X 3 Arábia Saudita
+
+Arábia Saudita venceu a disputa
 
 Times classificados para Quartas de Final
->>['Bolívia', 'São Vicente e Granadinas', 'Japão', 'Salvador', 'Etiópia', 'Camarões', 'Marrocos', 'Togo']
+>>['Eslováquia', 'Suriname', 'Cuba', 'Venezuela', 'Suíça', 'Coral Sea Islands', 'Bolívia', 'Arábia Saudita']
 
 QUARTAS DE FINAL
 
 Partida 01 - Quartas de Final
-Etiópia [0] X [0] Camarões
+Suíça [1] X [1] Coral Sea Islands
 
 Disputa de penaltes!
-Etiópia 1 X 4 Camarões
+Suíça 1 X 2 Coral Sea Islands
 
-Camarões venceu a disputa
+Coral Sea Islands venceu a disputa
 
 Partida 02 - Quartas de Final
-Bolívia [2] X [0] São Vicente e Granadinas
+Eslováquia [0] X [1] Suriname
 
 Partida 03 - Quartas de Final
-Marrocos [1] X [2] Togo
+Bolívia [1] X [2] Arábia Saudita
 
 Partida 04 - Quartas de Final
-Japão [2] X [2] Salvador
+Cuba [1] X [1] Venezuela
 
 Disputa de penaltes!
-Japão 1 X 5 Salvador
+Cuba 3 X 2 Venezuela
 
-Salvador venceu a disputa
+Cuba venceu a disputa
 
 SEMI FINAL
 
 Partida 01 - SEMI FINAL
-Bolívia [1] X [0] Camarões
+Suriname [1] X [0] Coral Sea Islands
 
 Partida 02 - SEMI FINAL
-Salvador [1] X [2] Togo
+Cuba [0] X [2] Arábia Saudita
 
 FINAL!
 
 FINAL
-Bolívia [1] X [0] Togo
+Suriname [1] X [0] Arábia Saudita
 
 SEMI - FINAL
-Camarões [3] X [2] Salvador
+Coral Sea Islands [1] X [0] Cuba
 
 
-A seleção Bolívia levou o ouro!!! É CAMPEÃ!
+A seleção Suriname levou o ouro!!! É CAMPEÃ!
 
-A medalha de prata fica com a seleção Togo!
+A medalha de prata fica com a seleção Arábia Saudita!
 
-Camarões levou o bronze pra casa!!!!!
+Coral Sea Islands levou o bronze pra casa!!!!!
 
 França foi eliminada na fase de grupos
 
 Inglaterra foi eliminada na fase de grupos
+
+Nigth City foi eliminada nas oitavas
