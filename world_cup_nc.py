@@ -1,5 +1,7 @@
 from random import choice, randint, choices
 
+import unidecode as unidecode
+
 
 def pontos():
     for c in range(1,4):
@@ -178,6 +180,7 @@ def salvar_resultado(t1 , p1, t2, p2):
 
 cup = ["França","Inglaterra", "Brasil", "Nigth City"]
 w_cup = []
+world_cup = []
 lista_chave = []
 tabela = {}
 lista_tabela = []
@@ -195,6 +198,11 @@ while len(w_cup)<32:
     for e in cup:
         if e not in w_cup:
             w_cup.append(e)
+
+# remove os acentos e adiciona ao self
+for i in range(len(w_cup)):
+    w_cup[i] = unidecode.unidecode(w_cup[i])
+    world_cup.append(w_cup[i])
 
 time1 = open('copa_do_mundo.txt', 'w', encoding='utf-8')
 time1.write(f'{"TIMES CLASSIFICADOS"}\n\n')
@@ -223,7 +231,7 @@ for c in range(1, 9):
 print(f'{"COPA DO MUNDO DE NIGHT CITY":^30}')
 print('Sorteando...')
 #sleep(2)
-print(f'{len(w_cup)} times clasificados foram:\n{sorted(w_cup)}')
+print(f'{len(w_cup)} times clasificados foram:\n{sorted(world_cup)}')
 
 print()
 
